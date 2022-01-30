@@ -76,8 +76,8 @@ header img{
     margin-bottom: 15px;
 }
 .galeriaimg{
-    width: 100%;
-    height: 450px;
+    width: 90%;
+    height: 300px;
     object-fit: cover;
 }
 .fotos{
@@ -137,10 +137,20 @@ h2{
     height: 350px;
     object-fit: cover;
 }
+form{
+    text-align: center;
+}
+input{
+    height: 15px;
+    transition: background-color 2s;
+}
+input:focus{
+    background-color: rgba(5, 107, 5, 0.904);
+}
 @media only screen and (min-width:620px) and (max-width:1023px){
     .galeriaimg{
-        width: 100%;
+        width: 650px;
         height: 450px;
-        object-fit:cover;
+        object-fit:;
     }
 }
