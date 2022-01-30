@@ -112,8 +112,7 @@ h1{
     width: 100%;
     color: rgb(26, 1, 1);
     text-align:center ;
-    background-image: -moz-linear-gradient(to top,green (5, 107, 5, 0.904 ),rgba(0, 128, 21, 0.185);
-    /* background-color: rgba(5, 107, 5, 0.904); */
+    background-color: rgba(5, 107, 5, 0.904);
     background-repeat: space;
 }
 p{
@@ -126,7 +125,7 @@ h2{
     font-size: 35PX;
     font-style: BOLD;
     text-align: center;
-    background-color: rgba(5, 107, 5, 0.904);
+    background-image:radial-gradient(rgba(5, 107, 5, 0.904), rgba(5, 107, 5, 0.295) );
 }
 .coment{
     display: flex;
