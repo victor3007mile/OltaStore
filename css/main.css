@@ -1,0 +1,25 @@
+.carousel {
+  width: 35vh;
+  height: 35vh; }
+
+.carousel-img {
+  height: 230px;
+  object-fit: cover; }
+
+.galeriaimg {
+  object-fit: cover; }
+
+footer {
+  background-color: #2c2b2b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  footer div a {
+    color: rgba(5, 107, 5, 0.904); }
+
+.facebook:hover {
+  color: #3B5998; }
+
+.instagram:hover {
+  color: #833AB4; }

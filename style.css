@@ -1,11 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .carousel{
     width: 35vh;
     height: 35vh;
 }
+.carousel-img{
+    height: 230px;
+    object-fit: cover;
+}
 .galeriaimg{
     object-fit: cover;
 }
-
 footer{
     background-color: rgb(44, 43, 43);
     display: flex;
@@ -25,6 +32,7 @@ footer div a{
 .boton{
     background-color: darkgrey;
 }
+
 .Galeria-Productos{
     object-fit: cover;
     transition: transform, 2s;
@@ -38,3 +46,4 @@ table{
     flex-direction: column;
     align-items: center;
 }
+
