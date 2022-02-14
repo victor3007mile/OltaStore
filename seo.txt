@@ -1,0 +1,6 @@
+se agrego al sitio:
+Descripcion en paginas
+Keywords en paginas
+sitemap
+descripcion sin espacion en imagenes
+nombres de las imagenes sin espacios

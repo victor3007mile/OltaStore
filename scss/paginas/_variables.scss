@@ -1,0 +1,13 @@
+$fondo-pagina: rgba(179, 174, 174, 0.925);
+
+$pie: (
+    color: rgba(5, 107, 5, 0.904),
+    bg: rgb(44, 43, 43),
+);
+
+@mixin flex ($direction, $justify, $align){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+};
