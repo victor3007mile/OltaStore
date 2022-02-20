@@ -1,4 +1,6 @@
 body{
+    width: 100%;
+    overflow-x: hidden;
     background-color:$fondo-pagina;
 }
 .carousel {
@@ -6,20 +8,19 @@ body{
     height: 35vh;
 }
 .carousel-img {
-    width: 210px;
-    height: 210px;
     object-fit: cover;
 }
-footer {
+.pie {
     background-color: map-get($pie , bg );
     @include flex(column, center, center);
     a {
     color: map-get($pie , color );
     }
-}
-.facebook:hover {
+
+&-facebook:hover {
     color: #3B5998;
 }
-.instagram:hover {
+&-instagram:hover {
     color: #833AB4;
+}
 }
