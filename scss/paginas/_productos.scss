@@ -1,13 +1,9 @@
-.Galeria-Productos{
-    object-fit: cover;
-    transition: transform, 2s;
+.bordes-card{
+    border: solid 5px white;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all ease-out 0.3s;
 }
-.Galeria-Productos:hover{
-    transform: scale(1.5,1.5);
-    z-index: 100;
-}
-table{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.bordes-card:hover{
+    transform: scale(1.02);
 }

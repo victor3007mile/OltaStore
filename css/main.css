@@ -1,14 +1,6 @@
-body {
-  width: 100%;
-  overflow-x: hidden;
-  background-color: #f1eaea; }
-
-.carousel {
-  width: 35vh;
-  height: 35vh; }
-
-.carousel-img {
-  object-fit: cover; }
+footer {
+  height: 80px;
+  margin-top: 10px; }
 
 .pie {
   background-color: #2c2b2b;
@@ -23,18 +15,37 @@ body {
   .pie-instagram:hover {
     color: #833AB4; }
 
-.Galeria-Productos {
-  object-fit: cover;
-  transition: transform, 2s; }
+.whatsapp {
+  background-color: #25d366;
+  position: fixed;
+  z-index: 100;
+  border-radius: 50%;
+  bottom: 15px;
+  right: 20px;
+  padding: 20px;
+  transition: ease 0.3s; }
 
-.Galeria-Productos:hover {
-  transform: scale(1.5, 1.5);
-  z-index: 100; }
+.whatsapp:hover {
+  transform: scale(1.1);
+  transition: 0.3s; }
 
-table {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
+.icono {
+  width: 40px;
+  transition: ease 1s; }
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #f1eaea; }
+
+.bordes-card {
+  border: solid 5px white;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all ease-out 0.3s; }
+
+.bordes-card:hover {
+  transform: scale(1.02); }
 
 .Novedades-img {
   object-fit: cover; }

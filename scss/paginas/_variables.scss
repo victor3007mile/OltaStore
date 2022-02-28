@@ -11,3 +11,39 @@ $pie: (
     justify-content: $justify;
     align-items: $align;
 };
+footer{
+    height: 80px;
+    margin-top: 10px;
+}
+.pie {
+    background-color: map-get($pie , bg );
+    @include flex(column, center, center);
+    a {
+    color: map-get($pie , color );
+    }
+
+&-facebook:hover {
+    color: #3B5998;
+}
+&-instagram:hover {
+    color: #833AB4;
+}
+}
+.whatsapp{
+    background-color: #25d366 ;
+    position: fixed;
+    z-index: 100;
+    border-radius: 50%;
+    bottom: 15px;
+    right: 20px;
+    padding: 20px;
+    transition: ease 0.3s;
+    }
+.whatsapp:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.icono{
+    width: 40px;
+    transition: ease 1s;
+}

@@ -3,24 +3,5 @@ body{
     overflow-x: hidden;
     background-color:$fondo-pagina;
 }
-.carousel {
-    width: 35vh;
-    height: 35vh;
-}
-.carousel-img {
-    object-fit: cover;
-}
-.pie {
-    background-color: map-get($pie , bg );
-    @include flex(column, center, center);
-    a {
-    color: map-get($pie , color );
-    }
 
-&-facebook:hover {
-    color: #3B5998;
-}
-&-instagram:hover {
-    color: #833AB4;
-}
-}
+
